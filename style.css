@@ -186,8 +186,6 @@ body {
 
 .fantesty-container {
     margin-top: 5%;
-
-
 } 
 
 .fantesty{
@@ -208,37 +206,28 @@ display: flex;
     align-items: center;
 }
 
-
 .last-picture {
     /* Auto Layout */
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    
+    margin: 2% auto;
+    width: 50%;  
 }
 
+
+footer{
+    margin-top: -19%;
+}
 .social-icon {
-
     /* Auto Layout */
-
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 0px;
-
     position: static;
     width: 170px;
     height: 40px;
-    right: 156.94px;
-    top: calc(50% - 32px/2 + 39.5px);
+    margin: 20px auto; 
+}
 
-    /* Inside Auto Layout */
-
-    flex: none;
-    order: 1;
-    flex-grow: 0;
-    margin: 20px 0px;
+.copy {
+    text-align: center;
+    margin-top: 300px
 }
 
 .fa-facebook {
@@ -257,10 +246,7 @@ display: flex;
     margin: 5px;
 }
 
-.copy {
-    text-align: center;
-    margin-top: 300px
-}
+
 
 @media only screen and(min-width:688px) and (max-width:992px) {
     .container {

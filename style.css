@@ -9,7 +9,6 @@ body {
 #first-pic {
     width: 1250px;
     height: 577px;
-    top: 0px;
     background: #2D25A0;
 }
 
@@ -58,14 +57,19 @@ body {
 .players-albam {
     display: flex;
     flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+    gap: 3%;
 }
 
 /* Auto Layout */
 
 .players-naymer {
-    display: grid;
+    display: flex;
     flex-direction: column;
-    margin: 30px 30px 10px 120px;
+    /* margin: 30px 30px 10px 120px; */
     padding: 3px 3px 3px 3px;
     border: 1px solid #ccc;
     width: 280px;
@@ -76,7 +80,7 @@ body {
 .players-lionel {
     display: flex;
     flex-direction: column;
-    margin: 30px 30px 10px 10px;
+    /* margin: 30px 30px 10px 10px; */
     padding: 3px 3px 3px 3px;
     border: 1px solid #ccc;
     width: 280px;
@@ -90,7 +94,7 @@ body {
     width: 280px;
     position: static;
     border: 1px solid #ccc;
-    margin: 30px 30px 10px 10px;
+    /* margin: 30px 30px 10px 10px; */
     padding: 3px 3px 3px 3px;
     background: #FFFFFF;
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
@@ -102,7 +106,7 @@ body {
     width: 280px;
     position: static;
     border: 1px solid #ccc;
-    margin: 10px 30px 10px 120px;
+    /* margin: 10px 30px 10px 120px; */
     padding: 3px 3px 3px 3px;
     background: #FFFFFF;
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
@@ -114,7 +118,7 @@ body {
     width: 280px;
     position: static;
     border: 1px solid #ccc;
-    margin: 10px 30px 10px 10px;
+    /* margin: 10px 30px 10px 10px; */
     padding: 3px 3px 3px 3px;
     background: #FFFFFF;
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
@@ -128,7 +132,7 @@ body {
     width: 280px;
     position: static;
     border: 1px solid #ccc;
-    margin: 10px 30px 10px 10px;
+    /* margin: 10px 30px 10px 10px; */
     padding: 3px 3px 3px 3px;
     background: #FFFFFF;
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
@@ -143,23 +147,20 @@ body {
     width: 280px;
     position: static;
     border: 1px solid #ccc;
-   
-    margin: 30px 30px 10px 120px;
+    /* margin: 30px 30px 10px 120px; */
     padding: 3px 3px 3px 3px;
     /* /* Inside Auto Layout  */
 }
 
 .players-kylian {
     /* /* Auto Layout  */
-
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     width: 280px;
     position: static;
     border: 1px solid #ccc;
-    
-    margin: 30px 10px 10px 10px;
+    /* margin: 30px 10px 10px 10px; */
     padding: 3px 3px 3px 3px;
     background: #FFFFFF;
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
@@ -176,8 +177,7 @@ body {
     position: static;
     border: 1px solid #ccc;
     padding: 3px 3px 3px 3px;
-    margin: 30px 10px 10px 10px;
-
+    /* margin: 30px 10px 10px 10px; */
 }
 
 .photo img {
@@ -248,16 +248,12 @@ footer{
 
 
 
-@media only screen and(min-width:688px) and (max-width:992px) {
-    .container {
-        width: 100%;
-        flex-direction: column;
-        text-align: center;
-        justify-content: center;
+@media only screen and(min-width:768px) and (max-width:992px) {
+
+    #first-pic {
         display: flex;
-        flex-direction: column;
-        font-size: xx-small;
-        font: 1em sans-serif;
+
     }
+   
 
 }

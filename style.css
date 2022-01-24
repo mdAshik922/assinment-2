@@ -211,18 +211,11 @@ display: flex;
 
 .last-picture {
     /* Auto Layout */
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 0px;
-
-    position: absolute;
-    width: 483.87px;
-    height: 213px;
-    left: 400px;
-    top: 2500px
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    
 }
 
 .social-icon {

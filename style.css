@@ -45,6 +45,16 @@ body {
     border-radius: 5px;
 }
 
+.arrow{
+    position: relative;
+    animation: animation 5s 2;
+    animation-direction: alternate;
+}
+@keyframes animation {
+    0%   {background: red; left: 0px; top: 0px;}
+    25%  {background: rgb(0, 255, 34); left: 200px; top: 0px;}
+  
+  }
 .football {
     width: 556.01px;
     height: 438px;

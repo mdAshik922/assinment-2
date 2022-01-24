@@ -45,16 +45,27 @@ body {
     border-radius: 5px;
 }
 
-.arrow{
+.arrow {
     position: relative;
     animation: animation 5s 2;
     animation-direction: alternate;
 }
+
 @keyframes animation {
-    0%   {background: red; left: 0px; top: 0px;}
-    25%  {background: rgb(0, 255, 34); left: 200px; top: 0px;}
-  
-  }
+    0% {
+        background: red;
+        left: 0px;
+        top: 0px;
+    }
+
+    25% {
+        background: rgb(0, 255, 34);
+        left: 200px;
+        top: 0px;
+    }
+
+}
+
 .football {
     width: 556.01px;
     height: 438px;
@@ -196,10 +207,10 @@ body {
 
 .fantesty-container {
     margin-top: 5%;
-} 
+}
 
-.fantesty{
-display: flex;
+.fantesty {
+    display: flex;
 }
 
 .second-part img {
@@ -209,7 +220,7 @@ display: flex;
     flex-direction: row;
 }
 
-.second-blogs{
+.second-blogs {
     margin-top: 10%;
     margin-left: auto;
     margin-right: auto;
@@ -220,19 +231,20 @@ display: flex;
     /* Auto Layout */
     display: block;
     margin: 2% auto;
-    width: 50%;  
+    width: 50%;
 }
 
 
-footer{
+footer {
     margin-top: -19%;
 }
+
 .social-icon {
     /* Auto Layout */
     position: static;
     width: 170px;
     height: 40px;
-    margin: 20px auto; 
+    margin: 20px auto;
 }
 
 .copy {
@@ -264,6 +276,6 @@ footer{
         display: flex;
 
     }
-   
+
 
 }
